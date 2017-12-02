@@ -30,14 +30,6 @@
         android:ems="10"
         android:inputType="number" />
 
-    <TextView
-        android:id="@+id/numero"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="0"
-        android:textColor="@android:color/background_dark"
-        android:textSize="15sp" />
-
     <Button
         android:id="@+id/btnenviarnum"
         android:layout_width="match_parent"
@@ -54,7 +46,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="horizontal"
-    android:layout_marginTop="350dp">
+    android:layout_marginTop="20dp">
 
     <TextView
         android:id="@+id/intentos"
@@ -75,10 +67,9 @@
         android:paddingLeft="2dp"
         android:text="0"
         android:textColor="@android:color/background_dark"
-        android:textSize="15sp" />
+        android:textSize="15sp"
+        android:inputType="number"/>
 
 </LinearLayout>
-
-
 
 </LinearLayout>

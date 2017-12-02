@@ -27,7 +27,7 @@ public class Configuracion extends AppCompatActivity {
         txtnick = (TextView) findViewById(R.id.txtnick);
         btnnick = (Button) findViewById(R.id.btnnick);
         btnseleccionar = (Button) findViewById(R.id.btnseleccionar);
-        
+
 
         this.btnnick.setOnClickListener(new View.OnClickListener() {
             @Override
