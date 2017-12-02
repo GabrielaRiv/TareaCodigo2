@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TareaCodigo</string>
+    <string name="inicio">Inicio Juego</string>
+    <string name="altos">Configuración</string>
+    <string name="config">Configuración</string>
+    <string name="bienvenida">Bienvenido al juego Adivina el número</string>
+    <string name="adivina">Adivine el número Aleatorio</string>
+</resources>
