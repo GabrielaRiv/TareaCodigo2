@@ -28,7 +28,6 @@ public class Configuracion extends AppCompatActivity {
         btnnick = (Button) findViewById(R.id.btnnick);
         btnseleccionar = (Button) findViewById(R.id.btnseleccionar);
 
-
         this.btnnick.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -36,7 +35,7 @@ public class Configuracion extends AppCompatActivity {
                 setContentView(R.layout.activity_configuracion);
                 TextView txtCambiado = (TextView)findViewById(R.id.txtnick);
                 txtCambiado.setText(dato);
-
+                Toast.makeText(Configuracion.this, "su nombre ha sido modificado", Toast.LENGTH_SHORT).show();
                 }
         });
 

@@ -14,49 +14,15 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
+        android:layout_marginBottom="5dp"
         android:gravity="center_horizontal"
         android:paddingLeft="15dp"
         android:paddingRight="15dp"
-        android:text="Ingrese un Nick Name"
+        android:text="Configuraciones de nivel"
         android:textColor="@android:color/background_dark"
         android:textSize="20sp"
-        tools:layout_editor_absoluteY="0dp"
-        tools:layout_editor_absoluteX="8dp" />
-
-    <EditText
-        android:id="@+id/nick"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:ems="10" />
-
-    <Button
-        android:id="@+id/btnnick"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:textAllCaps="false"
-        android:layout_marginTop="20dp"
-        android:textSize="18dp"
-        android:background="@color/yellow"
-        android:textColor="@color/Cyan1"
-        android:text="Guardar" />
-
-
-
-    <TextView
-        android:id="@+id/txt1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:text="Bienvenid@" />
-
-    <TextView
-        android:id="@+id/txtnick"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="40dp"
-        android:text="nombre" />
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="0dp" />
 
     <RadioGroup
         android:layout_width="wrap_content"
@@ -85,17 +51,70 @@
 
     </RadioGroup>
 
-
     <Button
         android:id="@+id/btnseleccionar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/Amber"
+        android:text="seleccionar"
+        android:textAllCaps="false"
+        android:textColor="@color/Cyan1"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/texto1"
+        android:layout_width="368dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+
+        android:gravity="center_horizontal"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="Configuraciones de Nick Name"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+
+    <EditText
+        android:id="@+id/nick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="ingrese un nick name"/>
+
+    <Button
+        android:id="@+id/btnnick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:textAllCaps="false"
         android:layout_marginTop="20dp"
         android:textSize="18dp"
-        android:background="@color/Amber"
+        android:background="@color/yellow"
         android:textColor="@color/Cyan1"
-        android:text="seleccionar" />
+        android:text="Guardar" />
+
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Bienvenid@"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:id="@+id/txtnick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:text="nombre"
+        android:textSize="25dp"/>
 
 </LinearLayout>

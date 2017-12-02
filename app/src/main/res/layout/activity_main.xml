@@ -59,7 +59,7 @@
         android:layout_marginTop="21dp"
         android:background="@color/red"
         android:padding="6dp"
-        android:text="@string/altos"
+        android:text="@string/config"
         android:textAllCaps="false"
         android:textColor="@color/Amber1"
         android:textSize="18dp" />

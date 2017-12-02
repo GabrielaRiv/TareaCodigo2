@@ -13,7 +13,7 @@ public class Inicio extends AppCompatActivity {
     private Button btnenviarnum;
     private TextView txtnumero;
     int numeroAleatorio = (int) (Math.random()*50+1);
-    int cout = 0;
+    int cout = 1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,15 +24,16 @@ public class Inicio extends AppCompatActivity {
         txtnumero = (TextView) findViewById(R.id.txtnumero);
         btnenviarnum = (Button) findViewById(R.id.btnenviarnum);
 
+        txtnumero.setText(String.valueOf(cout));
+
         btnenviarnum.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(Integer.parseInt(numAleatorio.getText().toString()) == numeroAleatorio){
+                if(Integer.parseInt(numAleatorio.getText().toString()) == numeroAleatorio) {
                     Toast.makeText(Inicio.this, "Usted ha ganado..." + numeroAleatorio, Toast.LENGTH_SHORT).show();
-
                 }else{
+                    txtnumero.setText(String.valueOf(cout + 1));
                     Toast.makeText(Inicio.this, "numero incorrecto, el numero es:" + numeroAleatorio, Toast.LENGTH_SHORT).show();
-
                 }
             }
         });
